@@ -29,7 +29,7 @@ sudo  tee -a /home/pi/.config/lxsession/LXDE/autostart > /dev/null <<EOT
 xset s noblank
 xset s off
 xset -dpms
-slide -p -t 60 -o 200 -p /var/wwww/html/digital_images
+slide -p -t 60 -o 200 -p /var/wwww/html/photos
 EOT
 
 #download repo and move folders.
