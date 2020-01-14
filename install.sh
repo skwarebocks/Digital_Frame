@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#update raspbian
+
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
 #install and configure dnsmasq and hostapd
 sudo apt-get install hostapd dnsmasq -y
 sudo update-rc.d dnsmasq disable
@@ -34,6 +39,7 @@ EOT
 
 #install fbi
 sudo apt-get install fbi -y
+
 #install git
 sudo apt-get install git
 
