@@ -34,6 +34,8 @@ EOT
 
 #install fbi
 sudo apt-get install fbi -y
+#install git
+sudo apt-get install git
 
 #download repo and move folders.
 sudo git clone https://github.com/skwarebocks/Digital_Frame.git
