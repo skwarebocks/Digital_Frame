@@ -13,7 +13,7 @@ while True:
     if input_state == False:
         if state == False:
                 print('Turning on WIFI configurator')
-                os.system('sudo pkil feh')
+                os.system('sudo pkil stretch')
                 os.system('sudo /usr/bin/fbi -d /dev/fb0 -T 1 --noverbose /home/pi/images/wificonfig.png')
                 os.system('sudo cp /home/pi/wificonfig/supportingfiles/interfaces.ap /etc/network/interfaces')
                 os.system('sudo wpa_cli -i wlan0 flush')
