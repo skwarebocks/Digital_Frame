@@ -32,6 +32,9 @@ xset -dpms
 slide -p -t 60 -o 200 -p /var/wwww/html/photos
 EOT
 
+#install fbi
+sudo apt-get install fbi -y
+
 #download repo and move folders.
 sudo git clone https://github.com/skwarebocks/Digital_Frame.git
 sudo mkdir /home/pi/wificonfig
