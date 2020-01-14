@@ -46,13 +46,13 @@ sudo apt-get install git
 #download repo and move folders.
 sudo git clone https://github.com/skwarebocks/Digital_Frame.git -y
 sudo mkdir /home/pi/wificonfig
-sudo cp /Digital_Frame/button.py /home/pi/wificonfig/button.py
-sudo cp /Digital_Frame/wificonfig.py /usr/lib/cgi-bin/wificonfig.py
-sudo cp /Digital_Frame/dnsmasq.conf /etc/dnsmasq.conf/dnsmasq.conf
-sudo cp /Digital_Frame/buttoncron /etc/cron.d/buttoncron
-sudo cp /Digital_Frame/supportingfiles /home/pi/wificonfig/supportingfiles
-sudo cp /Digital_Frame/images /home/pi/wificonfig/images
-sudo cp /Digital_Frame/html /var/www/html
+sudo cp /home/pi/Digital_Frame/button.py /home/pi/wificonfig/button.py
+sudo cp /home/pi/Digital_Frame/wificonfig.py /usr/lib/cgi-bin/wificonfig.py
+sudo cp /home/pi/Digital_Frame/dnsmasq.conf /etc/dnsmasq.conf/dnsmasq.conf
+sudo cp /home/pi/Digital_Frame/buttoncron /etc/cron.d/buttoncron
+sudo cp -r /home/pi/Digital_Frame/supportingfiles /home/pi/wificonfig
+sudo cp /home/pi/Digital_Frame/images /home/pi/wificonfig
+sudo cp /home/pi/Digital_Frame/html /var/www
 sudo cp /home/pi/Digital_Frame /etc/cron.d/per_minute
 
 ifconfig
