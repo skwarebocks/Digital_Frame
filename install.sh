@@ -39,12 +39,12 @@ sudo apt-get install fbi -y
 sudo git clone https://github.com/skwarebocks/Digital_Frame.git
 sudo mkdir /home/pi/wificonfig
 sudo mv ./Digital_Frame/button.py /home/pi/wificonfig/
-sudo mv ./Digital_Frame/digitalframe.py /usr/lib/cgi-bin/
+sudo mv ./Digital_Frame/wificonfig.py /usr/lib/cgi-bin/
 sudo mv ./Digital_Frame/dnsmasq.conf /etc/dnsmasq.conf
 sudo mv ./Digital_Frame/buttoncron /etc/cron.d/buttoncron
-sudo mv .Digital_Frame/supportingfiles /home/pi/wificonfig/
-sudo mv .Digital_Frame/images /home/pi/wificonfig/
-sudo mv .Digital_Frame/html /var/www/
+sudo mv ./Digital_Frame/supportingfiles /home/pi/wificonfig/
+sudo mv ./Digital_Frame/images /home/pi/wificonfig/
+sudo mv ./Digital_Frame/html /var/www/
 sudo mv /home/pi/Digital_Frame /etc/cron.d/per_minute
 
 ifconfig
