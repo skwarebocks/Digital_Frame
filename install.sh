@@ -48,12 +48,11 @@ sudo git clone https://github.com/skwarebocks/Digital_Frame.git -y
 sudo mkdir /home/pi/wificonfig
 sudo cp /home/pi/Digital_Frame/button.py /home/pi/wificonfig/button.py
 sudo cp /home/pi/Digital_Frame/wificonfig.py /usr/lib/cgi-bin/wificonfig.py
-sudo cp /home/pi/Digital_Frame/dnsmasq.conf /etc/dnsmasq.conf/dnsmasq.conf
+sudo cp /home/pi/Digital_Frame/dnsmasq.conf /etc/dnsmasq.conf
 sudo cp /home/pi/Digital_Frame/buttoncron /etc/cron.d/buttoncron
 sudo cp -r /home/pi/Digital_Frame/supportingfiles /home/pi/wificonfig
-sudo cp /home/pi/Digital_Frame/images /home/pi/wificonfig
-sudo cp /home/pi/Digital_Frame/html /var/www
-sudo cp /home/pi/Digital_Frame /etc/cron.d/per_minute
+sudo cp -r /home/pi/Digital_Frame/images /home/pi/wificonfig
+sudo cp -r /home/pi/Digital_Frame/html /var/www
 
 ifconfig
 echo "Make note of wifi mac address above and update file: /etc/dnsmasq.conf"
