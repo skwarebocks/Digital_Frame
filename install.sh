@@ -44,7 +44,7 @@ sudo apt-get install fbi -y
 sudo apt-get install git
 
 #download repo and move folders.
-sudo git clone https://github.com/skwarebocks/Digital_Frame.git -y
+sudo git clone https://github.com/skwarebocks/Digital_Frame.git
 sudo mkdir /home/pi/wificonfig
 sudo cp /home/pi/Digital_Frame/button.py /home/pi/wificonfig/button.py
 sudo cp /home/pi/Digital_Frame/wificonfig.py /usr/lib/cgi-bin/wificonfig.py
