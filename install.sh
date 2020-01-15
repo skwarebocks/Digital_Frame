@@ -53,6 +53,7 @@ sudo cp /home/pi/Digital_Frame/buttoncron /etc/cron.d/buttoncron
 sudo cp -r /home/pi/Digital_Frame/supportingfiles /home/pi/wificonfig
 sudo cp -r /home/pi/Digital_Frame/images /home/pi/wificonfig
 sudo cp -r /home/pi/Digital_Frame/html /var/www
+sudo rm /var/www/html/index.html
 
 ifconfig
 echo "Make note of wifi mac address above and update file: /etc/dnsmasq.conf"
